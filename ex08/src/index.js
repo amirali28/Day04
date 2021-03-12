@@ -4,16 +4,17 @@ function main() {
     myZ = 24;
 
     myX += 3;
-    myY +=17;
-    myZ -=20;
+    myY += 17;
+    myZ -= 20;
 
     return {
         myX,
         myY,
-        myZ};
+        myZ
+    };
 
-    } 
- 
- console.log(main());
- 
- module.exports = main;
+}
+
+console.log(main());
+
+module.exports = main;
